@@ -1,21 +1,16 @@
 {
-  "$schema": "https://github.com/SideStore/sidestore-source-types/raw/main/schema.json",
   "name": "ICANSII",
   "identifier": "fr.icansii.sidestore",
-  "subtitle": "Applications d'assistance pour les personnes malvoyantes",
-  "description": "Versions de démonstration des applications ICanSii pour l'assistance à la mobilité des personnes malvoyantes.",
-  "website": "https://github.com/icansii/icansii-sidestore",
-  "tintColor": "#3366CC",
+  "sourceURL": "https://icansii.github.io/icansii-sidestore/apps.json",
   "apps": [
     {
       "name": "ICANSII 5",
       "bundleIdentifier": "fr.icansii.app.v5",
       "developerName": "SII Sud Ouest R&D",
-      "subtitle": "Version 5 de l'application ICanSii",
-      "localizedDescription": "ICanSii 5 est une application d'assistance destinée aux personnes malvoyantes. Elle permet notamment la visualisation du terrain, la sélection du modèle de détection et la connexion avec la ceinture haptique.",
+      "subtitle": "Assistance à la mobilité par retour haptique",
+      "localizedDescription": "ICANSII 5 est une application d'assistance destinée aux personnes malvoyantes. Elle permet notamment la visualisation du terrain, la sélection du modèle de détection et la connexion avec la ceinture haptique.",
       "iconURL": "https://icansii.github.io/icansii-sidestore/assets/v5/icon.png",
       "tintColor": "#3366CC",
-      "category": "utilities",
       "screenshotURLs": [
         "https://icansii.github.io/icansii-sidestore/assets/v5/screenshots/belt_connection.PNG",
         "https://icansii.github.io/icansii-sidestore/assets/v5/screenshots/belt_preview.PNG",
@@ -26,16 +21,15 @@
       "version": "5.0.0",
       "versionDate": "2026-08-04",
       "versionDescription": "Première version publique distribuée avec SideStore.",
-      "downloadURL": "https://github.com/icansii/icansii-sidestore/releases/download/v5.0.0/ICanSii-v5.0.0.ipa",
-      "size": 24790712,
+      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.0.0/ICANSII-v5.0.0.ipa",
+      "size": 24790716,
       "versions": [
         {
           "version": "5.0.0",
-          "buildVersion": "50000",
           "date": "2026-08-04",
           "localizedDescription": "Première version publique distribuée avec SideStore.",
-          "downloadURL": "https://github.com/icansii/icansii-sidestore/releases/download/v5.0.0/ICanSii-v5.0.0.ipa",
-          "size": 24790712
+          "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.0.0/ICANSII-v5.0.0.ipa",
+          "size": 24790716
         }
       ]
     },
@@ -43,11 +37,10 @@
       "name": "ICANSII 6",
       "bundleIdentifier": "fr.icansii.app.v6",
       "developerName": "SII Sud Ouest R&D",
-      "subtitle": "Version 6 de l'application ICanSii",
-      "localizedDescription": "ICanSii 6 est une application expérimentale d'assistance destinée aux personnes malvoyantes. Elle intègre les fonctions de visualisation du terrain, de paramétrage de la transmission haptique, de test manuel de la ceinture et de prévisualisation du modèle de détection.",
+      "subtitle": "Assistance expérimentale par retour haptique",
+      "localizedDescription": "ICANSII 6 est une application expérimentale d'assistance destinée aux personnes malvoyantes. Elle intègre les fonctions de visualisation du terrain, de paramétrage de la transmission haptique, de test manuel de la ceinture et de prévisualisation du modèle de détection.",
       "iconURL": "https://icansii.github.io/icansii-sidestore/assets/v6/icon.png",
       "tintColor": "#3366CC",
-      "category": "utilities",
       "screenshotURLs": [
         "https://icansii.github.io/icansii-sidestore/assets/v6/screenshots/belt_manual_test.PNG",
         "https://icansii.github.io/icansii-sidestore/assets/v6/screenshots/belt_preview.PNG",
@@ -58,16 +51,15 @@
       "version": "6.0.0",
       "versionDate": "2026-08-04",
       "versionDescription": "Première version publique distribuée avec SideStore.",
-      "downloadURL": "https://github.com/icansii/icansii-sidestore/releases/download/v6.0.0/ICanSii-v6.0.0.ipa",
-      "size": 25006604,
+      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.0.0/ICANSII-v6.0.0.ipa",
+      "size": 25006609,
       "versions": [
         {
           "version": "6.0.0",
-          "buildVersion": "60000",
           "date": "2026-08-04",
           "localizedDescription": "Première version publique distribuée avec SideStore.",
-          "downloadURL": "https://github.com/icansii/icansii-sidestore/releases/download/v6.0.0/ICanSii-v6.0.0.ipa",
-          "size": 25006604
+          "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.0.0/ICANSII-v6.0.0.ipa",
+          "size": 25006609
         }
       ]
     }
