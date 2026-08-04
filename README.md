@@ -10,16 +10,24 @@ Les fichiers `.ipa` et les notes de version sont disponibles dans l’onglet **R
 
 ## Installation avec SideStore
 
-SideStore doit déjà être installé sur l’iPhone.
+SideStore doit déjà être installé sur l’iPhone *(lien pour la doc à mettre)*.
+
 
 <p align="center">
-  <a href="sidestore://source?url=https://icansii.github.io/icansii-sidestore/apps.json">
+  <a href="https://icansii.github.io/icansii-sidestore/add-source.html">
     <img
-      src="https://img.shields.io/badge/Ajouter%20la%20source%20à%20SideStore-6C5CE7?style=for-the-badge&logo=apple&logoColor=white"
+      src="https://img.shields.io/badge/Ajouter%20ICANSII%20à%20SideStore-6C5CE7?style=for-the-badge&logo=apple&logoColor=white"
       alt="Ajouter la source ICANSII à SideStore"
     />
   </a>
 </p>
+
+La source peut également être ajoutée manuellement avec cette URL :
+
+```text
+https://icansii.github.io/icansii-sidestore/apps.json
+```
+
 
 Une fois la source ajoutée, ouvrez SideStore puis sélectionnez **ICANSII 5** ou **ICANSII 6**.
 
