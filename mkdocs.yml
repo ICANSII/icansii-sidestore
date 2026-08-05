@@ -1,0 +1,95 @@
+site_name: Documentation ICANSII
+site_description: Installer, utiliser et déployer ICANSII avec SideStore.
+site_url: https://icansii.github.io/icansii-sidestore/
+repo_url: https://github.com/ICANSII/icansii-sidestore
+repo_name: ICANSII/icansii-sidestore
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 SII Sud Ouest R&D
+
+theme:
+  name: material
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Passer au thème sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Passer au thème clair
+
+plugins:
+  - search:
+      lang: fr
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ICANSII
+
+nav:
+  - Accueil: index.md
+
+  - Démarrer:
+      - Vue d’ensemble: get-started/index.md
+      - 1. Installer SideStore: get-started/install-sidestore.md
+      - 2. Ajouter la source ICANSII: get-started/add-source.md
+      - 3. Installer ICANSII: get-started/install-icansii.md
+      - 4. Actualiser les applications: get-started/refresh.md
+
+  - Applications:
+      - ICANSII 5: apps/v5.md
+      - ICANSII 6: apps/v6.md
+
+  - Déploiement:
+      - Vue d’ensemble: deploy/index.md
+      - Exporter les IPA: deploy/export-ipa.md
+      - Publier une version: deploy/publish-release.md
+      - Validation automatique: deploy/ci-validation.md
+      - Vérifications avant publication: deploy/release-checklist.md
+      - Runbook complet: deploy/linux-demo-iloader-setup-v5-v6-ICANSII-size-check.md
+      - Organisation des dépôts: deploy/repositories.md
+
+  - Support:
+      - Dépannage: support/troubleshooting.md
+      - Ressources: support/resources.md

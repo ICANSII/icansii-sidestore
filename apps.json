@@ -8,7 +8,7 @@
       "bundleIdentifier": "fr.icansii.app.v5",
       "developerName": "SII Sud Ouest R&D",
       "subtitle": "Assistance à la mobilité par retour haptique",
-      "localizedDescription": "ICANSII 5 est une application d'assistance destinée aux personnes malvoyantes. Elle permet notamment la ressenti des obstacles, la sélection du modèle de détection et la connexion avec la ceinture haptique (MTX Belt de Caylar) et de la TactSuit X40.",
+      "localizedDescription": "ICANSII 5 est une application d'assistance destinée aux personnes malvoyantes. Elle permet notamment le ressenti des obstacles, la sélection du modèle de détection et la connexion à la ceinture haptique MTX Belt de Caylar et à la TactSuit X40.",
       "iconURL": "https://icansii.github.io/icansii-sidestore/assets/v5/icon.png",
       "tintColor": "#3366CC",
       "screenshotURLs": [
@@ -38,7 +38,7 @@
       "bundleIdentifier": "fr.icansii.app.v6",
       "developerName": "SII Sud Ouest R&D",
       "subtitle": "Assistance expérimentale par retour haptique",
-      "localizedDescription": "ICANSII 6 est une application expérimentale d'assistance destinée aux personnes malvoyantes. Elle intègre les fonctions de ressenti des obstacles à trois niveaux via un grammaire haptique paramétrable. Il est possible de réaliser un test manuel de la ceinture et de prévisualiser le modèle de détection.",
+      "localizedDescription": "ICANSII 6 est une application expérimentale d'assistance destinée aux personnes malvoyantes. Elle permet le ressenti des obstacles selon trois niveaux grâce à une grammaire haptique paramétrable. Elle permet également de réaliser un test manuel de la ceinture et de prévisualiser le modèle de détection.",
       "iconURL": "https://icansii.github.io/icansii-sidestore/assets/v6/icon.png",
       "tintColor": "#3366CC",
       "screenshotURLs": [
@@ -50,16 +50,23 @@
       ],
       "version": "6.1.0",
       "versionDate": "2026-08-04",
-      "versionDescription": "Version publique avec stimuli haptiques améliorés (distribuée avec SideStore).",
+      "versionDescription": "Amélioration des stimuli et de la grammaire haptiques.",
       "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.1.0/ICANSII-v6.1.0.ipa",
       "size": 25036467,
       "versions": [
         {
           "version": "6.1.0",
           "date": "2026-08-04",
-          "localizedDescription": "Version publique avec stimuli haptiques améliorés (distribuée avec SideStore).",
+          "localizedDescription": "Amélioration des stimuli et de la grammaire haptiques.",
           "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.1.0/ICANSII-v6.1.0.ipa",
           "size": 25036467
+        },
+        {
+          "version": "6.0.0",
+          "date": "2026-08-04",
+          "localizedDescription": "Première version publique distribuée avec SideStore.",
+          "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.0.0/ICANSII-v6.0.0.ipa",
+          "size": 25006609
         }
       ]
     }

@@ -1,0 +1,70 @@
+icansii-sidestore/
+├── .github/
+│   └── workflows/
+│       └── pages.yml
+├── .gitignore
+├── add-source.html
+├── apps.json
+├── assets/
+│   ├── v5/
+│   │   ├── icon.png
+│   │   └── screenshots/
+│   │       ├── belt_connection.PNG
+│   │       ├── belt_preview.PNG
+│   │       ├── field_preview_1.PNG
+│   │       ├── field_preview_2.PNG
+│   │       └── yolo_selection.PNG
+│   └── v6/
+│       ├── icon.png
+│       └── screenshots/
+│           ├── belt_manual_test.PNG
+│           ├── belt_preview.PNG
+│           ├── field_preview_params.PNG
+│           ├── field_preview_transmission_haptique.PNG
+│           └── yolo_preview.PNG
+├── CONTRIBUTING.md
+├── docs/
+│   ├── apps/
+│   │   ├── v5.md
+│   │   └── v6.md
+│   ├── assets/
+│   │   └── stylesheets/
+│   │       └── extra.css
+│   ├── deploy/
+│   │   ├── ci-validation.md
+│   │   ├── export-ipa.md
+│   │   ├── index.md
+│   │   ├── linux-demo-iloader-setup-v5-v6-ICANSII-size-check.md
+│   │   ├── publish-release.md
+│   │   ├── release-checklist.md
+│   │   ├── repositories.md
+│   │   └── screenshots/
+│   │       ├── xcode-open-terminal.png
+│   │       ├── xcode-preparation.png
+│   │       ├── xcode-product-archive.png
+│   │       ├── xcode-show-package-contents.png
+│   │       └── xcode-xcarchive.png
+│   ├── get-started/
+│   │   ├── add-source.md
+│   │   ├── index.md
+│   │   ├── install-icansii.md
+│   │   ├── install-sidestore.md
+│   │   └── refresh.md
+│   ├── index.md
+│   └── support/
+│       ├── resources.md
+│       └── troubleshooting.md
+├── INSTALL-CI-UPDATE.md
+├── LICENSE
+├── Makefile
+├── MIGRATION.md
+├── mkdocs.yml
+├── README.md
+├── requirements-docs.txt
+├── scripts/
+│   ├── __init__.py
+│   └── validate_source.py
+├── tests/
+│   └── test_validate_source.py
+├── TREE-UPDATE.txt
+└── TREE.txt
