@@ -18,12 +18,19 @@
         "https://icansii.github.io/icansii-sidestore/assets/v5/screenshots/field_preview_2.PNG",
         "https://icansii.github.io/icansii-sidestore/assets/v5/screenshots/yolo_selection.PNG"
       ],
-      "version": "5.0.0",
-      "versionDate": "2026-08-04",
-      "versionDescription": "Première version publique distribuée avec SideStore.",
-      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.0.0/ICANSII-v5.0.0.ipa",
-      "size": 24790716,
+      "version": "5.1.0",
+      "versionDate": "2026-08-07",
+      "versionDescription": "Connection automatique à la ceinture haptique MTX Belt de Caylar et paramètres applications sauvegardés.",
+      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.1.0/ICANSII-v5.1.0.ipa",
+      "size": 24790685,
       "versions": [
+        {
+          "version": "5.1.0",
+          "date": "2026-08-07",
+          "localizedDescription": "Connection automatique à la ceinture haptique MTX Belt de Caylar et paramètres applications sauvegardés.",
+          "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.1.0/ICANSII-v5.1.0.ipa",
+          "size": 24790685
+        },
         {
           "version": "5.0.0",
           "date": "2026-08-04",
@@ -48,12 +55,19 @@
         "https://icansii.github.io/icansii-sidestore/assets/v6/screenshots/field_preview_params.PNG",
         "https://icansii.github.io/icansii-sidestore/assets/v6/screenshots/yolo_preview.PNG"
       ],
-      "version": "6.1.0",
-      "versionDate": "2026-08-04",
-      "versionDescription": "Amélioration des stimuli et de la grammaire haptiques.",
-      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.1.0/ICANSII-v6.1.0.ipa",
-      "size": 25036467,
+      "version": "6.2.0",
+      "versionDate": "2026-08-07",
+      "versionDescription": "Affinage du couloir de detection et stabilisation de la transmission haptique.",
+      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.2.0/ICANSII-v6.2.0.ipa",
+      "size": 25036753,
       "versions": [
+        {
+          "version": "6.2.0",
+          "date": "2026-08-07",
+          "localizedDescription": "Affinage du couloir de detection et stabilisation de la transmission haptique.",
+          "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v6.2.0/ICANSII-v6.2.0.ipa",
+          "size": 25036753
+        },
         {
           "version": "6.1.0",
           "date": "2026-08-04",

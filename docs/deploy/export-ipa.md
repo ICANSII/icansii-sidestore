@@ -83,7 +83,7 @@ rm -rf Payload
 ```bash
 rm -rf /tmp/icansii-check
 mkdir -p /tmp/icansii-check
-unzip -q ICANSII-v6.1.12.ipa -d /tmp/icansii-check # exemple pour ICANSII 6.1.12
+unzip -q "ICANSII-v${VERSION}.ipa" -d /tmp/icansii-check
 
 /usr/libexec/PlistBuddy -c "Print :CFBundleIdentifier" \
   /tmp/icansii-check/Payload/*.app/Info.plist
@@ -108,6 +108,7 @@ fr.icansii.app.v6
 Sous macOS :
 
 ```bash
+stat -f%z "ICANSII-v${VERSION}.ipa"
 stat -f%z ICANSII-v5.x.y.ipa
 stat -f%z ICANSII-v6.x.y.ipa
 ```
@@ -115,6 +116,7 @@ stat -f%z ICANSII-v6.x.y.ipa
 Sous Linux :
 
 ```bash
+stat -c%s "ICANSII-v${VERSION}.ipa"
 stat -c%s ICANSII-v5.x.y.ipa
 stat -c%s ICANSII-v6.x.y.ipa
 ```
