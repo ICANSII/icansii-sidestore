@@ -18,12 +18,19 @@
         "https://icansii.github.io/icansii-sidestore/assets/v5/screenshots/field_preview_2.PNG",
         "https://icansii.github.io/icansii-sidestore/assets/v5/screenshots/yolo_selection.PNG"
       ],
-      "version": "5.1.0",
-      "versionDate": "2026-08-07",
-      "versionDescription": "Connection automatique à la ceinture haptique MTX Belt de Caylar et paramètres applications sauvegardés.",
-      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.1.0/ICANSII-v5.1.0.ipa",
-      "size": 24790685,
+      "version": "5.2.0",
+      "versionDate": "2026-11-25",
+      "versionDescription": "Demonstrateur externe connectable via réseau local (Lien et QR code sous Vest > Ceinture)",
+      "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.2.0/ICANSII-v5.2.0.ipa",
+      "size": 24881890,
       "versions": [
+        {
+          "version": "5.2.0",
+          "date": "2026-11-25",
+          "localizedDescription": "Demonstrateur externe connectable via réseau local (Lien et QR code sous Vest > Ceinture)",
+          "downloadURL": "https://github.com/ICANSII/icansii-sidestore/releases/download/v5.2.0/ICANSII-v5.2.0.ipa",
+          "size": 24881890
+        },
         {
           "version": "5.1.0",
           "date": "2026-08-07",
